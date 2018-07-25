@@ -33,9 +33,16 @@ module.exports = {
       chunks: ['index']
     })
   ],
+  node: {
+    console: true,
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty'
+  },
   resolve: {
     alias: {
-      '~': resolve('node_modules')
+      '~': resolve('node_modules'),
+      '@': resolve('src')
     }
   }
 }

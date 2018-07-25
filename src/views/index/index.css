@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Yeseva+One');
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  outline: none;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#wrapper {
+  height: 100%;
+}
+
+div[id="map"] {
+  max-width: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  display: flex;
+}
+
+.sidenav {
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 15px;
+  width: 500px;
+}
+
+.sidenav__intro {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.sidenav__title {
+  font-family: 'Yeseva One', cursive;
+  font-weight: normal;
+  margin: 0 0 25px;
+  text-transform: uppercase;
+}
+
+.sidenav__items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidenav__item {
+  border-bottom: 1px solid #e0e0e0;
+  line-height: 25px;
+  margin: 0 0 10px;
+  padding: 0 0 5px;
+}
+
+.sidenav__item a {
+  color: #004D40;
+  display: block;
+  text-decoration: none;
+}
